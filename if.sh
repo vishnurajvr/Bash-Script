@@ -1,13 +1,13 @@
 #!bin/bash
 
-read vr
+read x
 
-if [ $vr = vishnu ];
+if [ $x = name ];
 then
-	echo "hello vishnu"
-elif [ $vr = raj ];
+	echo "hello name"
+elif [ $x = something ];
 then
-	echo "hello vraj"
+	echo "hello something"
 else
 	echo "no one there"
 
